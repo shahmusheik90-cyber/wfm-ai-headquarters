@@ -133,4 +133,4 @@ $('modalApprove').onclick=()=>{let a=staff[activeTask?.agent];if(a){select(a);re
 $('modalRevise').onclick=()=>{let a=staff[activeTask?.agent];if(a){select(a);review('revision requested');refreshWorkUI(true);renderGallery()}};
 
 try{init()}catch(err){$('fallback').style.display='grid';$('status').textContent='3D initialization failed';console.error(err)}
-</script></body></html>
+</script><script src="./v8-4-enhancements.js" defer></script></body></html>
